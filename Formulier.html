@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inloggen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<ul class="navigation">
+    <img class="logo" src="img/tui%20logo.png">
+    <li><a href="Acount-aanmaken.html">Account aanmaken</a></li>
+    <li><a href="Home.html">Home</a></li>
+    <li><a href="Formulier.html">Formulier</a></li>
+    <header class="welcome">
+        Welcome
+    </header>
+
+</ul>
+ <main>
+<h1>Formulier</h1>
+
+     <form method="post" action="Acount-aanmaken.html">
+         <label for="voornaam">Voornaam:</label>
+         <input type="text" id="Voornaam">
+         <label for="achternaam">Achternaam:</label>
+         <input type="text" id="achternaam">
+         <label>Geslacht:</label>
+         <label for="man">man</label><input type="radio" name="geslacht" id="man" checked>
+         <label for="vrouw">vrouw</label>
+         <input type="radio" id="vrouw" name="geslacht">
+         <label for="huis">Huis-en straatnummer:</label>
+         <input type="text" id="huis">
+         <label for="postcode">Postcode:</label>
+         <input type="text" id="postcode">
+         <label for="stad">Stad:</label>
+         <input type="text" id="stad">
+         <label for="land">Land:</label>
+         <input type="text" id="land">
+         <label for="bsn">BSN:</label>
+         <input type="text" pattern="\d*" maxlength="9" id="bsn">
+         <label for="Vakantieland">Vakantieland:</label>
+         <select name="Vakantieland" id="Vakantieland">
+             <option value="">--Kies een vakantieland--</option>
+             <option value="Spanje">Spanje</option>
+             <option value="Frankrijk">Frankrijk</option>
+             <option value="Verenigde Staten">Verenigde Staten</option>
+             <option value="China">China</option>
+             <option value="Italië">Italië</option>
+             <option value="Zweden">Zweden</option>
+         </select>
+         <label for="DatumV">Datum van vertrek:</label>
+         <input type="date" value="2022-09-16" min="2022-09-16" id="DatumV">
+         <label for="DatumH">Datum van terugkomst:</label>
+         <input type="date" value="2022-09-17" min="2022-09-17" id="DatumH">
+         <label for="Aantal">Aantal reisgenoten:</label>
+         <select name="Aantal" id="Aantal">
+             <option value="">--Selecteer een aantal--</option>
+             <option value="1">1 persoon</option>
+             <option value="2">2 personen</option>
+             <option value="3">3 personen</option>
+             <option value="4">4 personen</option>
+         </select> <br>
+         <input type="submit" value="Boek nu!" href="Acount-aanmaken.html.html" metho>
+
+
+
+
+
+
+
+
+     </form>
+
+</main>
+</body>
+</html>
